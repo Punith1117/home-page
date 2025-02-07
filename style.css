@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(108, 179, 212);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin-left: 15%;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    figcaption {
+        position: absolute;
+        color: white;
+        top: 90%;
+        left: 37%;
+        font-size: 2rem;
+    }
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px black;
+    h1 {
+        font-size: 3rem;
+    }
+
+    .about-me-text {
+        font-size: 2rem;
+    }
+}
+
+.online-profiles {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+.online-profiles > * {
+    width: 2rem;
+    height: 2rem;
+}
