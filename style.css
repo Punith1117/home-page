@@ -231,3 +231,73 @@ footer {
         }
     }
 }
+
+/* for mobile devices: */ 
+
+@media (max-width: 65rem) {
+    header {
+        flex-direction: column;
+    }
+
+    header figure {
+        margin-left: 0px;
+    }
+    
+    .about-me {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 45rem) {
+    header {
+        flex-direction: column;
+    }
+    
+    header figure {
+        margin-left: 0px;
+        width: 20rem;
+
+        figcaption {
+            left: 27%;
+        }
+    }
+
+    main {
+        padding: 1%;
+    }
+    
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    }
+
+    .contact {
+        a {
+            gap:3px;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+
+        section {
+            margin: 10px;
+        }
+
+        figure {
+            height: 20rem;
+            width: 100%;
+            border-radius: 0px;
+
+            img {
+                object-fit: cover;
+            }
+
+            figcaption {
+                left: 35%;
+                font-size: 2rem;
+            }
+        }
+    }
+}
