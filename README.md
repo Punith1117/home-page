@@ -24,3 +24,12 @@ This is a personal portfolio homepage created primarily as a learning project to
 - Well-structured, semantic, and accessible markup for better maintainability and usability
 
 This project serves as a foundation for mastering modern web development principles.
+
+## Credits:
+- Montserrat font from [google-fonts](https://fonts.google.com/specimen/Montserrat?preview.text=fast)
+- pngs: 
+    - https://www.pexels.com/photo/creative-home-drawing-setup-with-candlelight-30548866/
+    - Photo by veeterzy from Pexels: https://www.pexels.com/photo/silhouette-photo-of-a-mountain-during-sunset-114979/
+- svgs:
+    - https://devicon.dev
+    - https://pictogrammers.com/library/mdi/
