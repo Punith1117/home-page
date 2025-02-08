@@ -1,7 +1,9 @@
 # home-page
 Project15 in The Odin Project
 
-This is a personal portfolio homepage created primarily as a learning project to explore **responsive design**, **semantic HTML**, and **accessibility** using only HTML and CSS.
+This is a personal portfolio homepage created primarily as a learning project to explore **responsive design**, **semantic HTML**, and **accessibility** using only HTML and CSS.  
+
+## [Watch-It-Live](https://punith1117.github.io/home-page/)  
 
 ## What I learned:
 - **Responsive Design:**
