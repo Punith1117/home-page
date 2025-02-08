@@ -163,6 +163,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 10%;
+    color: white;
 
     section {
         display: flex;
@@ -184,7 +185,7 @@ footer {
             margin-left: 0;
             gap: 2rem;
             margin-top: 10px;
-            margin-left: 10px;
+            margin-left: 5px;
 
             img {
                 height: 2.5rem;
@@ -198,6 +199,8 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 1rem;
+        text-underline-offset: 6px;
+        color: rgb(255, 221, 108);
         
         img {
             height: 2rem;
@@ -211,6 +214,8 @@ footer {
         display: flex;
         flex-direction: column;
         width: clamp(15rem, 20vw, 25rem);
+        overflow: hidden;
+        border-radius: 1rem;
 
         img {
             width: 100%;
@@ -221,7 +226,7 @@ footer {
             color: white;
             position: absolute;
             bottom: 7%;
-            left: 33%;
+            left: 29%;
             font-size: max(1rem, 2vw);
         }
     }
